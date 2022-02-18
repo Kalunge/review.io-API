@@ -13,7 +13,7 @@ Learning to code without a community can be devastating, As one who has been thr
 - Git-flow => feature-branch => dev => Main
 - 
 
-[specs and Build process](https://github.com/Kalunge/review.io-API/blob/dev/specs.md)
+Will be building it incrementally, feel free to check this specs page where I'll document the building process [specs and Build process](https://github.com/Kalunge/review.io-API/blob/dev/specs.md)
 
 ### Planned improvements
 Build These faetures incrementally
