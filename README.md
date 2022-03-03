@@ -11,7 +11,6 @@ Learning to code without a community can be devastating, As one who has been thr
 - Code Review => Reviewed my own PRs just to add an 'extra eye'
 - Database design => associations and relationships
 - Git-flow => feature-branch => dev => Main
-- 
 
 Will be building it incrementally, feel free to check this specs page where I'll document the building process [specs and Build process](https://github.com/Kalunge/review.io-API/blob/dev/specs.md)
 
