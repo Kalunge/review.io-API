@@ -4,7 +4,7 @@ class CreateCodeReviews < ActiveRecord::Migration[6.1]
       t.string :title
       t.string :pull_request_link
       t.string :description
-      t.bool :reviewed
+      t.boolean :reviewed
 
       t.timestamps
     end
