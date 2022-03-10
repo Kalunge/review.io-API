@@ -1,5 +1,5 @@
 class Api::V1::CodeReviewsController < ApplicationController
-  before_action :set_code_review, only: [:show, :update, :destroy]
+  before_action :set_code_review, only: %i[show update destroy]
 
   # GET /code_reviews
   def index
@@ -39,13 +39,14 @@ class Api::V1::CodeReviewsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_code_review
-      @code_review = CodeReview.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def code_review_params
-      params.fetch(:code_review, {})
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_code_review
+    @code_review = CodeReview.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def code_review_params
+    params.fetch(:code_review, {})
+  end
 end
