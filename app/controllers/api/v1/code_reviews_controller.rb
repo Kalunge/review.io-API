@@ -1,4 +1,4 @@
-class CodeReviewsController < ApplicationController
+class Api::V1::CodeReviewsController < ApplicationController
   before_action :set_code_review, only: [:show, :update, :destroy]
 
   # GET /code_reviews
